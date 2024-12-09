@@ -1,55 +1,60 @@
-# CR Calculator
+<div align="center" text-align="center">
+    <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&text=CR%20Calculator&reversal=false">
+</div>
 
-**Ferramenta interativa para cálculo do coeficiente de rendimento acadêmico.**  
-Este projeto permite calcular o coeficiente de rendimento com base nas disciplinas cursadas, armazenando os dados de matérias, notas e cargas horárias em um array no JavaScript. Responsivo e com modo escuro, segue o Material Design 3 da Google.
-
-<br>
-
-## 🚀 Funcionalidades
-
-- Adicionar disciplinas com informações como nome, nota e carga horária.
-- Calcular automaticamente o coeficiente de rendimento.
-- Modo escuro integrado.
-- Interface responsiva, adequada para dispositivos móveis e desktops.
-- Design moderno seguindo o Material Design 3.
+**Interactive tool for calculating the academic performance coefficient.**  
+This project allows you to calculate the performance coefficient based on the courses taken, storing the data of subjects, grades, and workloads in an array in JavaScript. Responsive and with dark mode, it follows Google's Material Design 3.
 
 <br>
 
-## 🛠️ Tecnologias Utilizadas
+## 🚀 Features
 
-- **HTML5**: Estrutura semântica.
-- **CSS3**: Estilização com foco em responsividade e modo escuro.
-- **JavaScript**: Manipulação de dados e cálculo do coeficiente de rendimento.
-- **Material Design 3**: Base para o design da interface.
-- **Vercel**: Deploy rápido e confiável.
+- Add subjects with information such as name, grade, and workload.
+- Automatically calculate the academic performance coefficient.
+- Integrated dark mode.
+- Responsive interface, suitable for mobile and desktop devices.
+- Modern design following Material Design 3.
 <br>
 
-## 📦 Instalação e Uso
+## 🛠 Technologies Used
 
-1. Clone este repositório:
+- **HTML5**: Semantic structure.
+- **CSS3**: Styling with a focus on responsiveness and dark mode.
+- **JavaScript**: Data manipulation and performance coefficient calculation.
+- **Material Design 3**: Basis for the interface design.
+- **Vercel**: Fast and reliable deployment.
+<br>
+
+## 📦 Installation and Usage
+
+1. Clone this repository:
 ```bash
 git clone https://github.com/brunoliratm/CR-Calculator.git
 ```
 
-2. Acesse o diretório do projeto:
+2. Access the project directory:
 ```bash
 cd CR-Calculator
 ```
 
-3. Abra o arquivo `index.html` no navegador para usar a aplicação.
+3. Open the `index.html` file in the browser to use the application.
 
 <br>
 
-## 🌐 Demonstração
+## 🌐 Demonstration
 
 <div align="left">
     <a href="https://cr-calculator.vercel.app/" target="_blank">
-        <img src="https://img.shields.io/badge/Acesse%20a%20aplicação%20diretamente%20no%20Vercel-CR%20Calculator-blue?style=for-the-badge">
+        <img src="https://img.shields.io/badge/Access%20the%20application%20directly%20on%20Vercel-CR%20Calculator-blue?style=for-the-badge">
     </a>
 </div>
 
 <br>
 
-## 📄 Licença
+## 📄 License
 
-Este projeto está licenciado sob a MIT License. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+<div style="text-align: center;">
+    <img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&section=footer" />
+</div>
