@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CR Calculator</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <header class="header">
+            <h1>CR Calculator</h1>
+            <button id="theme-toggle" class="theme-toggle-btn">
+                <i class="bi bi-moon"></i>
+            </button>
+        </header>
+
+        <main>
+            <section class="form-container">
+                <h2>Adicionar Disciplina</h2>
+                <form id="discipline-form">
+                    <div class="input-group">
+                        <label for="subject">Disciplina:</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="grade">Nota:</label>
+                        <input type="number" id="grade" name="grade" min="0" max="10" step="0.1" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="ch">Carga Horária:</label>
+                        <input type="number" id="ch" name="ch" required>
+                    </div>
+                    <button type="submit">Adicionar</button>
+                </form>
+            </section>
+
+            <section class="result-container">
+                <h2>Coeficiente de Rendimento (CR)</h2>
+                <div id="cr-result" class="result">
+                    <p>CR: <span id="cr-value">0.00</span></p>
+                </div>
+            </section>
+
+            <section class="disciplines-list">
+                <h2>Disciplinas Cadastradas</h2>
+                <ul id="discipline-list">
+                </ul>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2024 CR Calculator | Desenvolvido por <a href="https://github.com/seu-usuario">Bruno Magno</a></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

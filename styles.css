@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+:root {
+  --bg-color: #f5f5f5;
+  --bg-color-2: #d6d6d6;
+  --text-color: #333;
+  --primary-color: #6200ea;
+  --secondary-color: #03dac5;
+  --input-bg-color: #fff;
+  --border-color: #ccc;
+  --button-bg-color: #6200ea;
+  --button-text-color: #fff;
+  --header-bg-color: #6200ea;
+  --footer-bg-color: #333;
+  --footer-text-color: #fff;
+}
+
+body[data-theme="dark"] {
+  --bg-color: #252424;
+  --bg-color-2: #333;
+  --text-color: #e0e0e0;
+  --primary-color: #bb86fc;
+  --secondary-color: #03dac5;
+  --input-bg-color: #333;
+  --border-color: #444;
+  --button-bg-color: #bb86fc;
+  --button-text-color: #121212;
+  --header-bg-color: #bb86fc;
+  --footer-bg-color: #333;
+  --footer-text-color: #fff;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 900px;
+  padding: 20px;
+  background-color: var(--bg-color);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(148, 57, 57, 0.1);
+}
+
+.header {
+  text-align: center;
+  background-color: var(--header-bg-color);
+  padding: 20px;
+  color: var(--footer-text-color);
+  border-radius: 8px 8px 0 0;
+}
+
+.header h1 {
+  font-size: 2rem;
+}
+
+.form-container {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: var(--bg-color-2);
+}
+
+.form-container h2 {
+  margin-bottom: 15px;
+  color: var(--primary-color);
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--text-color);
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  color: var(--text-color);
+  font-size: 1rem;
+}
+
+.input-group input:focus {
+  border-color: var(--primary-color);
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+}
+
+.theme-toggle-btn {
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  width: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.theme-toggle-btn:hover {
+  background-color: var(--secondary-color);
+}
+
+.theme-toggle-btn i {
+  font-size: 1.5rem;
+}
+
+.result-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.result p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.disciplines-list {
+  margin-top: 20px;
+}
+
+.disciplines-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.disciplines-list li {
+  background-color: var(--input-bg-color);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  background-color: var(--footer-bg-color);
+  padding: 10px;
+  color: var(--footer-text-color);
+  border-radius: 0 0 8px 8px;
+}
+
+@media (max-width: 600px) {
+  .app-container {
+    padding: 15px;
+  }
+
+  .header h1 {
+    font-size: 1.5rem;
+  }
+
+  .input-group input,
+  button {
+    font-size: 1rem;
+  }
+}
